@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://testwave.qabidder.net/" />
+<title>assignment2_creation_of_entities</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">assignment2_creation_of_entities</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/#/page/login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=exampleInputEmail1</td>
+	<td>ubertesterqa@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=exampleInputPassword1</td>
+	<td>testing</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='submit']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Entities</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//h3/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectWindow</td>
+	<td>null</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=name</td>
+	<td>Cool Name</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=address1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=address1</td>
+	<td>Cool Address</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=city</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=city</td>
+	<td>Cool City</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//option[@value='OK']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=state</td>
+	<td>label=California</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//option[@value='CA'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=zip</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=zip</td>
+	<td>94040</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=div.bootstrap-tagsinput.focus &gt; input[type=&quot;text&quot;]</td>
+	<td>kristina.siusa@gmail.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.text-right &gt; button.btn.btn-primary</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[4]/div/div/div/div[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[4]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
