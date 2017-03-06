@@ -1,0 +1,27 @@
+Assignment 1
+/xml/bookstore/book/title
+/xml/bookstore/book[1]/title
+/xml/bookstore/book/price
+/xml/bookstore/book[price>35]/price
+Assignment 2
+html/body/div[2]/div/div/div[1]/div/div[1]/a/img
+html/body/div[2]/div/div/div[1]/div/div[2]/p[1]
+html/body/div[2]/div/div/div[1]/div/div[2]/form/div[1]/label
+html/body/div[2]/div/div/div[1]/div/div[2]/form/div[1]/input
+html/body/div[2]/div/div/div[1]/div/div[2]/form/div[2]/label
+html/body/div[2]/div/div/div[1]/div/div[2]/form/div[2]/input
+html/body/div[2]/div/div/div[1]/div/div[2]/form/div[3]/label
+.//*[@id='id-password']
+html/body/div[2]/div/div/div[1]/div/div[2]/form/div[4]/label
+html/body/div[2]/div/div/div[1]/div/div[2]/form/div[4]/input
+html/body/div[2]/div/div/div[1]/div/div[2]/form/button
+html/body/div[2]/div/div/div[1]/div/div[2]/button[1]
+html/body/div[2]/div/div/div[1]/div/div[2]/button[2]
+html/body/div[2]/div/div/div[1]/div/div[2]/button[3]
+html/body/div[2]/div/div/div[1]/div/div[2]/p[2]
+html/body/div[2]/div/div/div[1]/div/div[2]/a
+html/body/div[2]/div/div/div[3]/span[1]
+html/body/div[2]/div/div/div[3]/span[2]
+html/body/div[2]/div/div/div[3]/span[3]
+html/body/div[2]/div/div/div[3]/span[4]
+html/body/div[2]/div/div/div[3]/span[5]
