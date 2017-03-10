@@ -30,28 +30,29 @@ public class SendMail {
 		Thread.sleep(3000);
 		WebElement passwordTextBox = driver.findElement(By.id("Passwd"));
 		passwordTextBox.sendKeys("12345password");
+		Thread.sleep(4000);
 		WebElement signInButton = driver.findElement(By.id("signIn"));
 		signInButton.click();
 		
-		Thread.sleep(3000);
-		WebElement composeEmail = driver.findElement(By.xpath(".//*[@id=':ha']/div/div"));
+		Thread.sleep(4000);
+		WebElement composeEmail = driver.findElement(By.xpath(".//*[@id=':66']/div/div"));
 		composeEmail.click();
 		
-		Thread.sleep(2000);
-		WebElement sendTo = driver.findElement(By.xpath(".//*[@id=':n2']"));
+		Thread.sleep(4000);
+		WebElement sendTo = driver.findElement(By.xpath(".//*[@id=':bg']"));
 		sendTo.sendKeys("yagna.bitspilani@gmail.com");
 		
 
-		Thread.sleep(2000);
-		WebElement subjectField = driver.findElement(By.xpath(".//*[@id=':mm']"));
+		Thread.sleep(4000);
+		WebElement subjectField = driver.findElement(By.xpath(".//*[@id=':b0']"));
 		subjectField.sendKeys("This is Automated mail");
 		
-		Thread.sleep(2000);
-		WebElement textField = driver.findElement(By.xpath(".//*[@id=':no']"));
-		textField.sendKeys("Hello, you recieved this email, because Kristina completed Homework");
+		Thread.sleep(4000);
+		WebElement textField = driver.findElement(By.xpath(".//*[@id=':c2']"));
+		textField.sendKeys("Hello, you received this email, because Kristina completed her Homework. Homework is uploaded to Github. Thank you!");
 		
 		Thread.sleep(2000);
-		WebElement sendEmail = driver.findElement(By.xpath(".//*[@id=':mc']"));
+		WebElement sendEmail = driver.findElement(By.xpath(".//*[@id=':aq']"));
 		sendEmail.click();
 		
 		
