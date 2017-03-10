@@ -5,6 +5,8 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class facebookTest {
 
@@ -28,23 +30,15 @@ public class facebookTest {
 		WebElement logInButton = driver.findElement(By.id("u_0_q"));
 		logInButton.click();
 		
-		Thread.sleep(6000);
-		WebElement enterPost = driver.findElement(By.cssSelector("textarea[class='_3en1 _480e']"));
-		enterPost.click();
-		
-		Thread.sleep(8000);
-		WebElement enterPost2 = driver.findElement(By.cssSelector("div[class='_1mf _1mj']"));
 		Thread.sleep(3000);
-		enterPost2.sendKeys("My First automated post!");
+		WebElement myAccount = driver.findElement(By.xpath(".//*[@id='u_0_4']/div[1]/div[1]/div/a"));
+		myAccount.click();
 		
-		Thread.sleep(5000);
-		WebElement postButton = driver.findElement(By.xpath(".//*[@id='js_5s']/div[2]/div[2]/div/div[2]/div/button"));
-		postButton.click();
+		Thread.sleep(4000);
+		driver.findElement(By.name("xhpc_message_text")).sendKeys("My first automated post!");
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("//button/span[.=\"Post\"]")).click();
 		
-		
-		
-		
-				
 		
 
 	}
